@@ -7,4 +7,5 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @RepositoryRestResource //expose web service
 public interface EntrepriseRepository extends JpaRepository<Entreprise, Long> {
+
 }
